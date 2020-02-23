@@ -33,13 +33,14 @@ public class EarthquakeActivity extends AppCompatActivity {
 
 
         //** Create a fake list of earthquake locations.
-        ArrayList<Earthquake> earthquakes = new ArrayList<>();
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
-        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        ArrayList<Earthquake> earthquakes = new ArrayList<>();
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+//        earthquakes.add(new Earthquake("8.9","San Francisco","02.02.2020"));
+        ArrayList<Earthquake> earthquakes = QueryUtils.extractEarthquakes();
 
 
 
