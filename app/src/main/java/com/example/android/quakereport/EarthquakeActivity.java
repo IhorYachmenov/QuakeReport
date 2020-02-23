@@ -20,7 +20,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class EarthquakeActivity extends AppCompatActivity {
 
@@ -31,6 +33,10 @@ public class EarthquakeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.earthquake_activity);
 
+//        long timeInMilliseconds = 1454124312220L;
+//        Date dateObject = new Date(timeInMilliseconds);
+//        SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM DD, yyyy");
+//        String dateToDisplay = dateFormatter.format(dateObject);
 
         //** Create a fake list of earthquake locations.
 //        ArrayList<Earthquake> earthquakes = new ArrayList<>();
